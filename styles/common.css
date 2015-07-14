@@ -1,0 +1,795 @@
+/**** Fonts and font icons are imported in this section ****/
+@font-face {
+  font-family: "fontIcon";
+  src: url("../fonts/dripicons.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ionicon";
+  src: url("../fonts/ionicons.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "bebas-Light";
+  src: url("../fonts/BebasNeueBook.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lato-light";
+  src: url("../fonts/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "futura-light";
+  src: url("../fonts/FuturaLightBT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "futura-bold";
+  src: url("../fonts/Futura_Medium_Condensed_BT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "helvetica-neue";
+  src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "futura-long";
+  src: url("../fonts/FuturaLightCondensedBT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "helvetica-light";
+  src: url("../fonts/2C0F94_1_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "helvetica-bold";
+  src: url("../fonts/2C0F94_0_0.ttf") format("truetype");
+}
+
+.dripicons{
+    font-family: "fontIcon";
+}
+
+.ionicons{
+    font-family: "ionicon";
+}
+
+.bebasLite{
+    font-family: "bebas-Light" !important;
+}
+
+.bebasLiteBold{
+    font-family: "bebas-Light" !important;
+    font-weight:bold !important;
+}
+
+.latoRegular{
+    font-family: "lato-regular" !important;
+}
+
+.latoLight{
+    font-family: "lato-regular" !important;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.futuraLight{
+    font-family: "futura-light";
+}
+
+.futuraBold{
+    font-family: "futura-bold";
+}
+
+.futuraLong{
+    font-family: "futura-long";
+}
+
+.helveticaNeue{
+    font-family: "helvetica-neue";
+}
+
+.helveticaLight{
+    font-family: "helvetica-light";
+}
+
+.helveticaBold{
+    font-family: "helvetica-bold";
+}
+
+/**** Fonts and font icons are imported in this section ****/
+
+
+/*************************common css starts here********************/
+.fontItalic{
+    font-style:italic;
+}
+
+.fontNormal{
+    font-style:normal;
+}
+
+.error{
+	color:red;
+	margin-top:15px;
+}
+
+.borderNone{
+    border: 0px solid #000 !important;
+}
+
+.capitalize{
+	text-transform:capitalize;
+}
+
+.font8{
+	font-size:8px !important;
+}
+
+.font10{
+	font-size:10px !important;	
+} 
+
+.font11{
+	font-size:11px !important;	
+}   
+    
+.font12{
+	font-size:12px !important;	
+}
+
+.font13{
+	font-size:13px !important;	
+}
+
+.font14{
+	font-size:14px !important;	
+}
+
+.font15{
+	font-size:15px !important;	
+}
+
+.font16{
+	font-size:16px !important;	
+}
+
+.font17{
+	font-size:17px !important;	
+}
+
+.font18{
+	font-size:18px !important;	
+}
+
+.font19{
+	font-size:19px !important;	
+}
+
+.font20{
+	font-size:20px !important;	
+}
+
+.font21{
+	font-size:21px !important;	
+}
+
+.font22{
+	font-size:22px !important;	
+}
+
+.font24{
+	font-size:24px !important;
+}
+
+.font26{
+	font-size:26px !important;
+}
+
+.font27{
+	font-size:27px !important;
+}
+
+.font28{
+	font-size:28px !important;
+}
+
+.font30{
+	font-size:30px !important;
+}
+
+.font32{
+	font-size:32px !important;
+}
+
+.font34{
+	font-size:34px !important;
+}
+
+.font36{
+	font-size:36px !important;
+}
+
+.font38{
+	font-size:38px !important;
+}
+
+.font40{
+	font-size:40px !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.marginTop5{
+	margin-top:5px;
+}
+
+/* PORTRAIT: Samsung Galaxy Note, Nexus 4, HTC One S, HTC One XL, HTC Sensation XL, HTC Velocity 4G, Motorola Droid3,
+  Motorola Droid Razr, Motorola Razr HD 4G, Motorola Razr M 4G, Nokia 500, Samsung Galaxy Note 2, Samsung Galaxy S3,
+  BlackBerry Bold 9900, BlackBerry 9520, BlackBerry Z10*/
+@media only screen and (max-width: 400px) and (orientation : portrait) {
+    
+}
+
+
+/* PORTRAIT: HTC Evo 3D, Kindle Fire HD 7, Kindle Fire HD 8.9, Ainol Novo 7 Elf 2*/
+@media only screen and (max-width: 540px) and (orientation : portrait) {
+}
+
+
+/* PORTRAIT:Acer Iconia Tab A101, Archos 70b (it2), Arnova 10b G3, BlackBerry PlayBook, Kindle 3,
+* Kobo eReader Touch, Samsung Galaxy Tab 2 7.0, Samsung Galaxy Tab 7*/
+@media only screen and (max-width: 600px) and (orientation : portrait) {
+}
+
+/* PORTRAIT: Acer Iconia Tab A500, Arnova 7FG3, Nexus 7*/
+@media only screen and (max-width: 640px) and (orientation : portrait) {
+  
+}
+
+/* PORTRAIT: Acer Iconia Tab A100, Acer Iconia Tab A200, Acer Iconia Tab A502, Arnova 8C G3, ASUS Padfone, ASUS Transformer Pad TF300T,
+ASUS Transformer TF101, Motorola Xoom, Motorola Xoom 2, Samsung Galaxy Note 10.1, Samsung Galaxy Tab 8.9, Samsung Galaxy Tab 10.1,
+Samsung Galaxy Tab 10.1*/
+@media only screen and (max-width: 800px) and (orientation : portrait) {
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px) and (orientation : portrait) {
+	.font8{
+		font-size:11px !important;   
+	}
+    
+
+	.font10{
+		font-size:13px !important;	
+	}
+    
+	.font11{
+		font-size:14px !important;	
+	}
+    
+	.font12{
+		font-size:15px !important;	
+	}
+	
+	.font13{
+		font-size:16px !important;	
+	}
+	
+	.font14{
+		font-size:17px !important;	
+	}
+	
+	.font15{
+		font-size:18px !important;	
+	}
+	
+	.font16{
+		font-size:19px !important;	
+	}
+	
+	.font17{
+		font-size:20px !important;	
+	}
+	
+	.font18{
+		font-size:21px !important;	
+	}
+	
+	.font19{
+		font-size:22px !important;	
+	}
+	
+	.font20{
+		font-size:23px !important;	
+	}
+	
+	.font21{
+		font-size:24px !important;	
+	}
+	
+	.font22{
+		font-size:25px !important;	
+	}
+    
+	.font24{
+		font-size:27px !important;
+	}
+    
+	.font26{
+		font-size:29px !important;
+	}
+    
+	.font28{
+		font-size:31px !important;
+	}
+    
+	.font30{
+		font-size:33px !important;
+	}
+    
+	.font32{
+		font-size:35px !important;
+	}
+    
+	.font34{
+		font-size:36px !important;
+	}
+    
+	.font36{
+		font-size:38px !important;
+	}
+    
+	.font38{
+		font-size:40px !important;
+	}
+    
+	.font40{
+		font-size:42px !important;
+	}
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+.vtop {
+	vertical-align: top;
+}
+
+.none{
+	display:none;
+}
+
+.block{
+	display:block;
+}
+
+.inlineBlock{
+	display:inline-block;
+}
+
+.inlineFlex{
+	display:inline-flex;
+}
+
+.displayTable{
+    display:table;
+}
+
+.displayCell{
+    display:table-cell;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+.visible{
+	visibility:visible;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.normal{
+	font-weight:normal !important;
+}
+
+.underline{
+	text-decoration:underline;
+}
+
+.whiteText{
+	color:#fff !important;
+}
+
+.blackText{
+	color:#2b3538;
+}
+
+.redText{
+	color:#DD5451;
+}
+
+.yellowText{
+	color:#FF9A00;  
+}
+
+.blueText{
+	color:#39A5C0 !important;
+}
+
+.darkBlueText{
+	color:#246B7C;
+}
+
+.greenText{
+	color:#719D2D;
+}
+
+.darkGreenText{
+	color:#3fa184;
+}
+
+.darkRedText{
+    color:#ec5451;
+}
+
+.darkOrangeText{
+    color:#fda42d;
+}
+
+.shadowNone{
+	text-shadow:none;
+}
+
+.shadowBlack{
+	text-shadow:1px 1px 1px #000;
+}
+
+.shadowWhite{
+	text-shadow:1px 1px 1px #fff;
+}
+
+.textCenter{
+	text-align:center;
+}
+
+.textLeft{
+	text-align:left;
+}
+
+.textRight{
+	text-align:right;
+}
+
+.fixed{
+	position:fixed;
+}
+
+.absolute{
+	position:absolute;
+}
+
+.relative{
+	position:relative;
+}
+
+.topZero{
+	top:0px !important;
+}
+
+.leftZero{
+	left:0px;
+}
+
+.bottomZero{
+	bottom:0px !important;
+}
+
+.rightZero{
+	right:0px !important;
+}
+
+.marginTopZero{
+	margin-top:0p;
+}
+
+.marginLeftZero{
+	margin-left:0p;
+}
+
+.marginBottomZero{
+	margin-bottom:0;
+}
+
+.marginRightZero{
+	margin-right:0;
+}
+
+.width33{
+	width:33.13%;
+}
+
+.widthtab{
+	width:32.7%;
+}
+
+.width25{
+	width:24.5%;
+}
+
+.width40{
+	width:40%;
+}
+
+.width50{
+	width:50%;
+}
+
+.width60{
+	width:60%;
+}
+
+.width100{
+	width:100% !important;
+}
+
+.height100{
+	height:100% !important;
+}
+
+.widthZero{
+    width:0px !important;
+}
+
+.widthAuto{
+	width:auto;
+}
+
+.heightAuto{
+	height:auto;
+}
+
+.noneBG{
+    background: none !important;
+}
+
+bgTopLeft{
+    background-position:top left;
+}
+
+bgTopRight{
+    background-position:top right;
+}
+
+bgCenter{
+    background-position:center center;
+}
+
+bgBottomLeft{
+    background-position:bottom left;
+}
+
+bgBottomRight{
+    background-position:bottom right;
+}
+
+.bgTopCenter{
+	background-position:top center;
+}
+
+.bgNoRepeat{
+	background-repeat: no-repeat;	
+}
+
+.bgRepeatX{
+	background-repeat: repeat-y;	
+}
+
+.bgRepeatY{
+	background-repeat: repeat-x;
+}
+
+.whiteBorder{
+	border:1px solid #fff !important;
+}
+
+.blackBorder{
+	border:1px solid #000 !important;
+}
+
+.overflowAuto{
+	overflow:auto;
+}
+
+.overflowHidden{
+	overflow:hidden !important;
+}
+
+.overflowScroll{
+	overflow:scroll;
+}
+
+.overflowElipsis{
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wordWrap{
+	word-wrap:break-word;
+}
+
+.overflowYAuto{
+	overflow-y:auto;
+}
+
+.overflowYHidden{
+	overflow-y:hidden;
+}
+
+.overflowXAuto{
+	overflow-x:auto;
+}
+
+.overflowXHidden{
+	overflow-x:hidden;
+}
+
+.pointer{
+	cursor:pointer;
+}
+
+a{
+	text-decoration: none;
+}
+
+.marginZero{
+	margin :0px !important;
+}
+
+.paddingZero{
+	padding :0px !important;
+}
+
+.paddingTopZero{
+	padding-top :0px !important;
+}
+
+.paddingLeftZero{
+	padding-left :0px !important;
+}
+
+.paddingRightZero{
+	padding-right :0px !important;
+}
+
+.paddingBottomZero{
+	padding-bottom :0px !important;
+}
+ 
+.borderMed{
+ 	border: medium none;
+}
+
+.auto{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.grayText{
+	color:#EBEBEB !important;
+}
+
+.darkGrayText{
+    color:#919bac !important;
+}
+
+.actionGrayText{
+    color:#898989;
+}
+
+.msgDateText:{
+    color:#DCDDE0 !important;
+}
+
+.msgText{
+    color:#7d8594 !important;
+}
+
+.fullBGSize{
+	background-size: 100% 100%;
+}
+
+.heightZero{
+    height:0px;
+}
+
+.borderRadiusFive{
+	-webkit-border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+}
+
+.mask{
+	display: none;
+	top: 0;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 9999;
+}
+
+.borderRight{
+	border-right:1px solid;
+}
+
+.decorationNone{
+	text-decoration:none;
+}
+
+.borderBottomBlack{
+	border-bottom: 1px solid #000000;
+}
+
+.opacityZero{
+    opacity:0;
+}
+
+.opacityOne{
+    opacity:1;
+}
+
+
+/* PORTRAIT: Samsung Galaxy Note, Nexus 4, HTC One S, HTC One XL, HTC Sensation XL, HTC Velocity 4G, Motorola Droid3,
+  Motorola Droid Razr, Motorola Razr HD 4G, Motorola Razr M 4G, Nokia 500, Samsung Galaxy Note 2, Samsung Galaxy S3,
+  BlackBerry Bold 9900, BlackBerry 9520, BlackBerry Z10*/
+@media only screen and (max-width: 400px) and (orientation : portrait) {
+    
+}
+
+
+/* PORTRAIT: HTC Evo 3D, Kindle Fire HD 7, Kindle Fire HD 8.9, Ainol Novo 7 Elf 2*/
+@media only screen and (max-width: 540px) and (orientation : portrait) {
+}
+
+
+/* PORTRAIT:Acer Iconia Tab A101, Archos 70b (it2), Arnova 10b G3, BlackBerry PlayBook, Kindle 3,
+* Kobo eReader Touch, Samsung Galaxy Tab 2 7.0, Samsung Galaxy Tab 7*/
+@media only screen and (max-width: 600px) and (orientation : portrait) {
+}
+
+/* PORTRAIT: Acer Iconia Tab A500, Arnova 7FG3, Nexus 7*/
+@media only screen and (max-width: 640px) and (orientation : portrait) {
+  
+}
+
+/* PORTRAIT: Acer Iconia Tab A100, Acer Iconia Tab A200, Acer Iconia Tab A502, Arnova 8C G3, ASUS Padfone, ASUS Transformer Pad TF300T,
+ASUS Transformer TF101, Motorola Xoom, Motorola Xoom 2, Samsung Galaxy Note 10.1, Samsung Galaxy Tab 8.9, Samsung Galaxy Tab 10.1,
+Samsung Galaxy Tab 10.1*/
+@media only screen and (max-width: 800px) and (orientation : portrait) {
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px) and (orientation : portrait) {
+    
+}
+/************************************common css ends here************************************/

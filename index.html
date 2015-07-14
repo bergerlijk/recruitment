@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="recruitmentApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Recuitement Management System">
+        <meta name="author" content="">
+
+        <title>RMS | Recuitement Management System</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" media="all" type="text/css" href="styles/lib/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" media="all" type="text/css" href="styles/lib/bootstrap/bootstrap-theme.min.css">
+        <link rel="stylesheet" media="all" type="text/css" href="styles/common.css">
+        <link rel="stylesheet" media="all" type="text/css" href="styles/styles.css">
+        
+        <script type="text/javascript" src="scripts/lib/jquery/jquery.js"></script>
+        <script type="text/javascript" src="scripts/lib/angular/angular.min.js"></script>
+        <script type="text/javascript" src="scripts/lib/angular/angular-resource.min.js"></script>
+        <script type="text/javascript" src="scripts/lib/angular/angular-route.js"></script>
+        <script type="text/javascript" src="scripts/myapp.js"></script>
+        <script type="text/javascript" src="scripts/services/userModule.js"></script>
+        <script type="text/javascript" src="scripts/controllers/userController.js"></script>
+        <script type="text/javascript" src="scripts/controllers/projectsController.js"></script>
+        <script type="text/javascript" src="scripts/controllers/dashboardController.js"></script>
+    </head>
+    <body ng-controller="mainController">
+        <div id="main">
+            <div ng-view></div>
+        </div>
+    </body>
+</html>
